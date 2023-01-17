@@ -57,7 +57,7 @@ namespace beginner_image_blender
             // 
             this.button2.Location = new System.Drawing.Point(22, 320);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(561, 57);
+            this.button2.Size = new System.Drawing.Size(561, 34);
             this.button2.TabIndex = 1;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
@@ -65,20 +65,22 @@ namespace beginner_image_blender
             // trackBar1
             // 
             this.trackBar1.LargeChange = 10;
-            this.trackBar1.Location = new System.Drawing.Point(22, 460);
+            this.trackBar1.Location = new System.Drawing.Point(22, 442);
             this.trackBar1.Maximum = 100;
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(561, 56);
             this.trackBar1.TabIndex = 2;
+            this.trackBar1.Value = 50;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(24, 387);
+            this.button3.Location = new System.Drawing.Point(24, 360);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(559, 55);
             this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
+            this.button3.Text = "Blend image";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox1
             // 
@@ -105,6 +107,7 @@ namespace beginner_image_blender
             this.pictureBox3.Size = new System.Drawing.Size(873, 826);
             this.pictureBox3.TabIndex = 6;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // textBox1
             // 
