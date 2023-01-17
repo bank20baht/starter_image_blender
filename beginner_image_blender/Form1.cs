@@ -131,18 +131,18 @@ namespace beginner_image_blender
                 this.textBox1.AppendText("Please load the image before clicking this button\r\n");
         }
 
-        private void trackBar1_Scroll(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trackBar1_Scroll_1(object sender, EventArgs e)
         {
             this.textBox1.Text = string.Concat((object)this.trackBar1.Value);
             if (this.image_loaded)
                 this.button3_Click(sender, e);
             else
                 this.textBox1.Text += "\r\nPlease load the images";
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

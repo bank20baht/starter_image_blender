@@ -71,6 +71,7 @@ namespace beginner_image_blender
             this.trackBar1.Size = new System.Drawing.Size(561, 56);
             this.trackBar1.TabIndex = 2;
             this.trackBar1.Value = 50;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll_1);
             // 
             // button3
             // 
