@@ -49,8 +49,9 @@ namespace beginner_image_blender
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(564, 58);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "load image";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -95,6 +96,7 @@ namespace beginner_image_blender
             this.pictureBox2.Size = new System.Drawing.Size(279, 216);
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
@@ -111,6 +113,7 @@ namespace beginner_image_blender
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(559, 340);
             this.textBox1.TabIndex = 7;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 

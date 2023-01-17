@@ -1,0 +1,9 @@
+C:\Users\BANK20BAHT\source\repos\beginner_image_blender\beginner_image_blender\bin\x64\Release\beginner_image_blender.exe.config
+C:\Users\BANK20BAHT\source\repos\beginner_image_blender\beginner_image_blender\bin\x64\Release\beginner_image_blender.exe
+C:\Users\BANK20BAHT\source\repos\beginner_image_blender\beginner_image_blender\bin\x64\Release\beginner_image_blender.pdb
+C:\Users\BANK20BAHT\source\repos\beginner_image_blender\beginner_image_blender\obj\x64\Release\beginner_image_blender.Form1.resources
+C:\Users\BANK20BAHT\source\repos\beginner_image_blender\beginner_image_blender\obj\x64\Release\beginner_image_blender.Properties.Resources.resources
+C:\Users\BANK20BAHT\source\repos\beginner_image_blender\beginner_image_blender\obj\x64\Release\beginner_image_blender.csproj.GenerateResource.cache
+C:\Users\BANK20BAHT\source\repos\beginner_image_blender\beginner_image_blender\obj\x64\Release\beginner_image_blender.csproj.CoreCompileInputs.cache
+C:\Users\BANK20BAHT\source\repos\beginner_image_blender\beginner_image_blender\obj\x64\Release\beginner_image_blender.exe
+C:\Users\BANK20BAHT\source\repos\beginner_image_blender\beginner_image_blender\obj\x64\Release\beginner_image_blender.pdb
