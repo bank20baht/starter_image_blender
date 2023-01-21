@@ -7,3 +7,4 @@ C:\Users\BANK20BAHT\source\repos\beginner_image_blender\beginner_image_blender\o
 C:\Users\BANK20BAHT\source\repos\beginner_image_blender\beginner_image_blender\obj\x64\Release\beginner_image_blender.csproj.CoreCompileInputs.cache
 C:\Users\BANK20BAHT\source\repos\beginner_image_blender\beginner_image_blender\obj\x64\Release\beginner_image_blender.exe
 C:\Users\BANK20BAHT\source\repos\beginner_image_blender\beginner_image_blender\obj\x64\Release\beginner_image_blender.pdb
+C:\Users\BANK20BAHT\source\repos\beginner_image_blender\beginner_image_blender\obj\x64\Release\beginner_image_blender.csproj.AssemblyReference.cache

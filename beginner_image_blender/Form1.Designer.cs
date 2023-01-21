@@ -45,9 +45,9 @@ namespace beginner_image_blender
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(19, 248);
+            this.button1.Location = new System.Drawing.Point(19, 301);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(564, 58);
+            this.button1.Size = new System.Drawing.Size(564, 33);
             this.button1.TabIndex = 0;
             this.button1.Text = "load image";
             this.button1.UseVisualStyleBackColor = true;
@@ -55,12 +55,13 @@ namespace beginner_image_blender
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(22, 320);
+            this.button2.Location = new System.Drawing.Point(19, 381);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(561, 34);
+            this.button2.Size = new System.Drawing.Size(564, 34);
             this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
+            this.button2.Text = "blend image parallel";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // trackBar1
             // 
@@ -75,9 +76,9 @@ namespace beginner_image_blender
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(24, 360);
+            this.button3.Location = new System.Drawing.Point(19, 340);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(559, 55);
+            this.button3.Size = new System.Drawing.Size(564, 35);
             this.button3.TabIndex = 3;
             this.button3.Text = "Blend image";
             this.button3.UseVisualStyleBackColor = true;
@@ -87,7 +88,7 @@ namespace beginner_image_blender
             // 
             this.pictureBox1.Location = new System.Drawing.Point(19, 14);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(279, 216);
+            this.pictureBox1.Size = new System.Drawing.Size(279, 269);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -96,7 +97,7 @@ namespace beginner_image_blender
             // 
             this.pictureBox2.Location = new System.Drawing.Point(304, 14);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(279, 216);
+            this.pictureBox2.Size = new System.Drawing.Size(279, 269);
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
